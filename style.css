@@ -1,0 +1,169 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	position: fixed;
+	height: 56px;
+	width: 100%;
+	background-color: #000;
+	color: #FFF;
+	box-sizing: border-box;
+}
+
+#subheader {
+	padding-top: 55px;
+	height: 12px;
+	background-image: linear-gradient(#FFF, #000);
+}
+
+html {
+	height: 100%;
+}
+
+body  {
+	text-align: center;
+	color: #FFF;
+	background-image: linear-gradient(135deg, #002233, #330015);
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+hr {
+	color: #49f8ff;
+}
+
+h1 {
+	margin-top: 80px;
+	color: #49f8ff;
+}
+
+#feat:hover {
+	background-image: linear-gradient(#ef0404, #ad0101);
+	border-bottom: 3px #ef0404 solid;
+}
+
+#contact:hover {
+	background-image: linear-gradient(#44efff, #07c3f7);
+	border-bottom: 3px #44efff solid;
+}
+
+#price:hover {
+	background-image: linear-gradient(#00BF17, #009912);
+	border-bottom: 3px #00BF17 solid;
+}
+
+#header-img {
+	float: left;
+	width: 115px;
+	height: auto;
+	margin: 5px 10px;
+}
+
+.nav-link {
+	float: right;
+	text-decoration: none;
+	padding: 15px 20px;
+	color: #FFF;
+	font-size: 20px;
+}
+
+iframe {
+	border-radius: 10px;
+	margin-bottom: 50px;
+	margin-top: 100px;
+}
+
+#music, #midi, #app{
+	display: flex;
+	justify-content: center;
+	margin: 40px 0;
+}
+
+@media only screen {
+	#music, #midi, #app{
+		flex-wrap: wrap;
+	}
+}
+
+.headers {
+	color: #49f8ff;
+}
+
+.info-section {
+	flex-direction: column;
+	width: 50%;
+	text-align: left;
+}
+
+#notes-icon {
+	width: 100px;
+	margin-left: 10px;
+	margin-right: 70px;
+}
+
+#piano-icon {
+	width: 120px;
+	margin-right: 60px;
+	margin-top: 60px;
+}
+
+#tablet-icon {
+	width: 90px;
+	margin-left: 15px;
+	margin-right: 75px;
+	margin-top: 25px;
+}
+
+#pricing {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	color: #000;
+	margin-top: 200px;
+}
+
+#pricing > div {
+	width: 250px;
+	height: 300px;
+	margin: 5px;
+	border: 1px #FFF solid;
+	background-color: #d8d8d8;
+	
+}
+
+.box-header {
+	width: 100%;
+	height: 50px;
+	background-color: #FFF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.box-info > h2{
+	margin: 20px 0 45px 0;
+}
+
+.box-info > ul {
+	list-style: none;
+}
+
+#email {
+	font-size: 15px;
+	height: 20px;
+	padding: 3px;
+	margin: 20px 0; 
+}
+
+#submit {
+	background-color: #49f8ff;
+	border-style: none;
+	padding: 5px;
+}
+
+#form {
+	margin-top: 150px;
+	margin-bottom: 30px;
+}
